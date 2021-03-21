@@ -1,4 +1,4 @@
-# Test Falabella
+# Test Falabella Funcional
 --------------------------
 
 ## Dependecias
