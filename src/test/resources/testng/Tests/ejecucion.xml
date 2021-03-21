@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestYapoCLM">
+
+
+	<parameter name="URL_PRINCIPAL"
+		value="https://clmconsultores.cl/" />
+
+	<test name="TestBase">
+		<classes>
+			<class name="cl.qa.tests.MainTest">
+				<methods>
+					<include name="servicesAvailable" />
+					<include name="goToTestFuntional" />
+					<include name="accessFormContactUs" />
+					<include name="failedRequestRequiredFields" />
+					<include name="failedRequestWrongFormatFields" />
+					<include name="successfullyRequest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+
+	
+
+</suite>
